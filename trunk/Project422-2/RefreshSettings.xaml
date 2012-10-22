@@ -1,0 +1,11 @@
+﻿<Window x:Class="Project422_2.RefreshSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Status Update Settings" Height="201" Width="300" Name="UpdateSettings" xmlns:my="clr-namespace:Project422_2">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="192,24,0,0" Name="autoRefreshInterval" VerticalAlignment="Top" Width="74" />
+        <Label Content="Auto Refresh Interval (msecs) :" Height="28" HorizontalAlignment="Left" Margin="12,24,0,0" Name="label1" VerticalAlignment="Top" />
+        <Button Content="Manual Refresh" Height="23" HorizontalAlignment="Left" Margin="151,96,0,0" Name="manualUpdateStatus" VerticalAlignment="Top" Width="115" Click="manualUpdateStatus_Click" />
+        <Button Content="Auto Refresh" Height="23" HorizontalAlignment="Left" Margin="12,96,0,0" Name="autoUpdateStatus" VerticalAlignment="Top" Width="115" Click="autoUpdateStatus_Click" />
+    </Grid>
+</Window>
