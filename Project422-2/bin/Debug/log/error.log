@@ -1,0 +1,4 @@
+22/10/2012 8:39:24 PM:System.NullReferenceException: Object reference not set to an instance of an object.
+   at Project422_2.MainWindow.ViewLocation_MenuItem_Click(Object sender, RoutedEventArgs e) in C:\Users\Pravin\Documents\Visual Studio 2010\Projects\Project422-2-1\Project422-2\MainWindow.xaml.cs:line 416
+22/10/2012 8:49:13 PM:System.InvalidCastException: Unable to cast object of type 'Google.Api.Maps.Service.GeographicPosition' to type 'Project422_2.api.SelectedObject'.
+   at Project422_2.MainWindow.addressResultTree_MouseDoubleClick(Object sender, MouseButtonEventArgs e) in C:\Users\Pravin\Documents\Visual Studio 2010\Projects\Project422-2-1\Project422-2\MainWindow.xaml.cs:line 340
